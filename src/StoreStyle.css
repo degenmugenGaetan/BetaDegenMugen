@@ -1,0 +1,88 @@
+/* Styles go here */
+
+:root {
+  --main-blue-mugen:  #64E9EE;
+}
+
+.id {
+  border-radius: 50%;
+}
+
+.network {
+  width: 125px;
+  height: 43px;
+  color: #FFFFFF;
+  background-color: #303030;
+  border: 1px solid var(--main-blue-mugen);
+}
+
+.balance {
+  width: 125px;
+  height: 43px;
+  color: #FFFFFF;
+  background-color: #505050;
+  border: 1px solid var(--main-blue-mugen);
+}
+
+.account {
+  width: 150px;
+  height: 43px;
+  color: #55FF55;
+  background-color: #707070;
+  border: 1px solid var(--main-blue-mugen);
+}
+
+
+.navBorderBottom{
+  border-bottom: 1mm ridge var(--main-blue-mugen)
+}
+
+.loading{
+  height: 1440px;
+  background-color: #1D1D1D;
+}
+
+p {
+  margin: 5px
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.03); /* IE 9 */
+  -webkit-transform: scale(1.03); /* Safari 3-8 */
+  transform: scale(1.03);
+  box-shadow: 0px 0px 20px rgba(254, 23, 63, 0.7);
+}
+
+.myCard {
+  box-shadow: 5px 5px 20px rgba(125, 125, 125, 0.8);
+  border-radius: 25px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+
+}
+
+.btn-primary {
+  background-color: white;
+  margin-top: 10px;
+  color: var(--main-blue-mugen);
+}
+
+.btn-primary:focus {
+  background-color: white;
+  margin-top: 10px;
+  color: var(--main-blue-mugen);
+}
+
+
+.navbarImage {
+  height: 40px;
+  margin: 5px;
+}
+
+.whiteText{
+  color: white;
+}
